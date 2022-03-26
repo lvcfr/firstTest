@@ -8,6 +8,10 @@ testFunc.prototype.getName = function () {
     return this.name;
 }
 
+testFunc.prototype.getKind = function () {
+    return this.kind;
+}
+
 testFunc.prototype.contructor = testFunc;
 
 module.exports = testFunc;

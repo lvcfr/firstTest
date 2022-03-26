@@ -6,6 +6,7 @@ const secondPet = new myPet('cat', 'traitor', 200);
 
 console.log(firstPet.constructor === myPet);
 console.log(secondPet.getName());
+console.log(firstPet.getKind());
 
 function greetings(name) {
     const sayThis = `welcome ${name}!`;
